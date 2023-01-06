@@ -136,3 +136,25 @@ body{
     background-color: var(--botao-azul-efeito);
     transition: 0.3s;
 }
+@media screen and (max-width: 768px){
+    .container{
+        margin: 2em 0;
+        display: block;
+        background: none;
+        text-align: center;
+        height: fit-content;
+    }
+    .container__imagem{
+        margin: 0.75em;
+        width: 50vw;
+        align-items: center;
+    }
+    .container__botao{
+        scale: 0.8;
+        margin: 0 auto;
+    }
+    .container img{
+        width: 50vw;
+    }
+
+}
