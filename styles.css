@@ -152,7 +152,10 @@ body{
     }
     .container__botao{
         scale: 0.8;
-        margin: 0 auto;
+        margin: 1em auto;
+    }
+    .container__imagem{
+        scale: 1.4;
     }
     .container img{
         width: 50vw;
@@ -169,5 +172,8 @@ body{
     }
     .rodape__texto{
         margin-top: 2em;
+    }
+    .container__descricao{
+        padding: 0;
     }
 }
